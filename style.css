@@ -107,7 +107,12 @@ body
 {
     display: grid;
     grid-template-columns: repeat(6,1fr);
-
+}
+.title-photo
+{
+    padding: 10px;
+    border-radius: 10px !important;
+    border: 2px solid lightslategrey;
 }
 footer
 {
