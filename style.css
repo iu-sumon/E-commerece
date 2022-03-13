@@ -15,9 +15,97 @@ body
 {
     color: gray !important;
 }
+.line{
+    border: 3px solid black;
+}
+.cart
+{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+     
+}  
+
 .card-1
 {
+    border-radius: 30px;
+    width: 270px;
+    
+}
+.card-2{
+    border-radius: 30px;
+}
+.card-4{
+    border-radius:10px ;
+    
+}
+.cart-2
+{
+    position: relative;
+    overflow: hidden;
+   
+} 
+.cart-2:hover .card-3
+{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out ;
+}
+.cart-2:hover .cart-details
+{
+   display: block;
+}
+.cart-details
+{ position: absolute;
+    display: none;
+    bottom:0;
+    left:150px;
+}
+.cream{
+    display: grid;
+    grid-template-columns: repeat(3,.3fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3,.3fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.blogs
+{
+    position: relative;
+    overflow: hidden;
+   
+} 
+.blogs:hover .card-4
+{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out ;
+}
+.blogs:hover .cart-details-2
+{
+   display: block;
+   background-color: rgba(255, 218, 185, 0.438);
+}
+.cart-details-2 h3{
+    background-color: rgb(150, 125, 125);
+    color: white;
+    text-align: center;
+}
+.cart-details-2 p{
+    color: white;
+}
+.cart-details-2 
+{ position: absolute;
+    display: none;
+    top:0;
+    width: 300px;
+    left: 40px;
      
-    padding: 20px;
-    border-radius:15px;
+     
+    
 }
