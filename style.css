@@ -1,0 +1,23 @@
+body
+{
+    background-color: rgb(196, 187, 187);
+}
+.color-1
+{
+    background-color: blueviolet;
+    color: white;
+}
+.active
+{
+    color: white !important;
+}
+.dropdown-item
+{
+    color: gray !important;
+}
+.card-1
+{
+     
+    padding: 20px;
+    border-radius:15px;
+}

@@ -1,19 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akira</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akira</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light color-1">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">A K I R A</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                HOME
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another</a></li>
+                
+                <li><a class="dropdown-item" href="#">Something</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                 SHOP
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another</a></li>
+                
+                <li><a class="dropdown-item" href="#">Something</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+               PAGES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">PAGE-1</a></li>
+                <li><a class="dropdown-item" href="#">PAGE-2</a></li>
+                <li><a class="dropdown-item" href="#">PAGE-3</a></li>
+                <li><a class="dropdown-item" href="#">PAGE-4</a></li>
+                <li><a class="dropdown-item" href="#">PAGE-5</a></li>
+                <li><a class="dropdown-item" href="#">PAGE-6</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+               BLOG
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">BLOG-1</a></li>
+                <li><a class="dropdown-item" href="#">BLOG-2</a></li>
+                <li><a class="dropdown-item" href="#">BLOG-3</a></li>
+                <li><a class="dropdown-item" href="#">BLOG-4</a></li>
+                <li><a class="dropdown-item" href="#">BLOG-5</a></li>
+                <li><a class="dropdown-item" href="#">BLOG-6</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">BUY</a>
+            </li> 
+            
+          </ul>
+          <form class="d-flex">
+            <input class="form-control text-center" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark text-white " type="submit">SEARCH</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-    </header>
+  </header>
+  <main>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="active" aria-current="true" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="active" aria-current="true" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="active" aria-current="true" aria-label="Slide 6"></button>
+        
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href=""><img src="images-1/1.jpg" class="d-block w-100" alt=""></a>
+           
+          </div>
+          <div class="carousel-item">
+            <a href=""><img src="images-1/2.jpg" class="d-block w-100" alt=""></a>
+          </div>
+          <div class="carousel-item">
+            <a href=""><img src="images-1/3.jpg" class="d-block w-100" alt=""></a>
+          </div>
+          <div class="carousel-item">
+            <a href=""><img src="images-1/4.jpg" class="d-block w-100" alt=""></a>
+          </div>
+          <div class="carousel-item">
+            <a href=""><img src="images-1/5.jpg" class="d-block w-100" alt=""></a>
+          </div>
+          <div class="carousel-item">
+            <a href=""><img src="images-1/6.jpg" class="d-block w-100" alt=""></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    
+    <section>
+      <div>
+        <div class="container mx-auto">
+          <div class="row row-cols-lg-3 gy-3 gx-3">
+            <div class="col ">
+              <div class="card-1">
+                <img src="images-2/1.jpg" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div  class="card-1"><img src="images-2/2.jpg" alt=""></div>
+            </div>
+            <div class="col">
+              <div  class="card-1"><img src="images-2/3.jpg" alt=""></div>
+            </div>
+            <div class="col">
+              <div  class="card-1"><img src="images-2/4.jpg" alt=""></div>
+            </div>
+            <div class="col">
+              <div  class="card-1"><img src="images-2/5.jpg" alt=""></div>
+            </div>
+            <div class="col">
+              <div  class="card-1"><img src="images-2/6.jpg" alt=""></div>
+            </div>
+            <div class="col">
+              <div  class="card-1"><img src="images-2/7.jpg" alt=""></div>
+            </div>
+            <div class="col">
+              <div  class="card-1"><img src="images-2/8.jpg" alt=""></div>
+            </div>
+            <div class="col">
+              <div  class="card-1"><img src="images-2/9.jpg" alt=""></div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+   
+  </main>
 
 
 
@@ -25,7 +190,9 @@
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
